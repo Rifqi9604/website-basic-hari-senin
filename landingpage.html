@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Website</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <nav class="px-10 bg-[#003049] py-2 ">
+      <div class="flex justify-between items-center w-full h-[50px]">
+        <div class="text-[#fca311] font-bold cursor-pointer text-[24px]">
+            Cloth<span class="text-[#c1292e]">Us</span>
+          </div>
+        <div>
+          <ul class="flex gap-6 font-medium text-[#fca311] cursor-pointer">
+            <li class="hover:text-[#c1292e]">Home</li>
+            <li class="hover:text-[#c1292e]">Products</li>
+            <li class="hover:text-[#c1292e]">Pricing</li>
+            <li class="hover:text-[#c1292e]">Contacts</li>
+          </ul>
+        </div>
+
+        <div class="flex gap-6 text-[#fca311] items-center cursor-pointer">
+            <div class="flex items-center gap-2">
+                <img src="./assets/images/person.png" class="w-[16px] h-[16px]"/><span class="font-medium hover:text-[#c1292e]">Login/Register</span>
+            </div>
+            <div>
+                <img src="./assets/images/search (2).png"/>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="./assets/images/cart.png" class="w-[16px] h-[16px]"/><span class="font-medium">1</span>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="./assets/images/love.png" class="w-[16px] h-[16px]"/><span class="font-medium">1</span>
+            </div>
+        </div>
+
+      </div>
+    </nav>
+    <section class="bg-slate-200 relative">
+      <div class="w-screen h-screen">
+        <img
+          src="./assets/images/shirts.jpg"
+          class="w-full h-full object-cover blur-[2px]"
+        />
+      </div>
+      <div class="absolute inset-0 flex flex-col items-center justify-center ">
+        <div class="text-[#003049] text-center my-4">
+            <h1 class="text-[24px]">Spring 2023</h1>
+          <h1 class="text-[48px] font-bold">New <span class="text-[#fca311]">Cloth</span><span class="text-[#c1292e]">Us</span>
+            Spring Collection</h1>
+          <p class="">Collection You've Never Seen Before!!</p>
+        </div>
+        <div class="my-4 ">
+            <button class="bg-transparent text-[#003049] border-2 border-[#005555] rounded-[8px] h-[40px] w-[120px] flex justify-center items-center hover:bg-[#fca311] hover:border-[#275c75] transition-all ease-in-out duration-300 hover:text-[#275c75]">
+                <span class="font-medium">SHOP NOW!!</span>
+            </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="w-full text-[14px] h-[50px] bg-[#003049] flex justify-center items-center text-[#fca311] font-medium">
+        © 2023 PT. ClothUs. All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>
