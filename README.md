@@ -1,1 +1,1 @@
-Dibuat untuk menyelasaikan Basic Mission SIM-K Fullstack Web Developer by HARISENIN.COM
+Dibuat untuk menyelesaikan Basic Mission SIM-K Fullstack Web Developer by HARISENIN.COM
